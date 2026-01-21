@@ -1,0 +1,20 @@
+# Configuration for Fiew Facebook Bot
+# Most values should be set as GitHub Secrets
+
+paths:
+  posts_dir: "posts/"
+  logs_dir: "logs/"
+
+content:
+  default_message: "🌞 Good morning from Fiew! Stay curious, stay inspired."
+  fallback_messages:
+    - "Another day, another opportunity to learn something new! 📚"
+    - "Keep exploring, keep growing. What will you discover today?"
+    - "Thought for the day: The only limit is your imagination. ✨"
+    - "Learning is not attained by chance, it must be sought for with ardor."
+    - "The beautiful thing about learning is that no one can take it away from you."
+
+# Facebook credentials should be set as GitHub Secrets
+# page_id: ${{ secrets.FB_PAGE_ID }}
+# access_token: ${{ secrets.FB_ACCESS_TOKEN }}
+# api_version: ${{ secrets.FB_API_VERSION || 'v18.0' }}
